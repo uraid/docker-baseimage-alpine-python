@@ -2,4 +2,4 @@
 
 umask 022
 
-python /config/scripy.p
+python /config/script.py

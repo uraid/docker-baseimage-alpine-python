@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+
+# install dependencies
+[[ ! -f "/var/log/deps" ]] && \
+	/bin/sh /config/dependencies.sh && \
+  touch /var/log/deps

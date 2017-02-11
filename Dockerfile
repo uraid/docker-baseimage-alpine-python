@@ -65,3 +65,11 @@ RUN \
  rm -rf \
 	/root/.cache \
 	/tmp/*
+	
+VOLUME /config
+
+# add local files
+COPY root/ /
+
+# Run startup script
+ENTRYPOINT ["/init"]

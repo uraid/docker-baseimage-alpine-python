@@ -50,8 +50,12 @@ RUN \
  pip install --no-cache-dir -U \
 	pip && \
  pip install --no-cache-dir -U \
+	cheetah \
 	configparser \
+	ndg-httpsclient \
 	notify \
+	paramiko \
+	pillow \
 	psutil \
 	pyopenssl \
 	requests \

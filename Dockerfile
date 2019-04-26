@@ -1,5 +1,4 @@
-FROM lsiobase/alpine:3.5
-MAINTAINER sparklyballs
+FROM lsiobase/alpine:3.9
 
 # install runtime packages
 RUN \
